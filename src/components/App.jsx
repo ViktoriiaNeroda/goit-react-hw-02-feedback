@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+
 import React, { Component } from 'react';
 import { SectionTitle } from './Title/Title';
 import { Rates } from './Rates/Rates';
@@ -53,7 +53,6 @@ import { Notification } from "./Notification/Notification";
     total={this.totalCount()}
     positive={this.positiveCount()} />
 )}
-
         </Section>
       </div>
     )
